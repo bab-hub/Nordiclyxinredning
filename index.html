@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Trä & Form | Handgjord Lyxinredning</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">STUDIO TRÄ</div>
+        <ul>
+            <li><a href="#home">Hem</a></li>
+            <li><a href="#collection">Kollektion</a></li>
+            <li><a href="#craft">Hantverket</a></li>
+            <li><a href="#contact">Beställ</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Tidlösa detaljer i ädelträ</h1>
+            <p>Från skulpturala soffbord till unika ostbrickor – handgjorda för ditt hem.</p>
+            <a href="#collection" class="btn">Se Kollektionen</a>
+        </div>
+    </header>
+
+    <section id="collection" class="section">
+        <h2>Vårt Sortiment</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">🪑</div>
+                <h3>Soffbord</h3>
+                <p>Massiva bord med naturliga kanter (live edge) eller minimalistisk design.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🧀</div>
+                <h3>Serveringsbrädor</h3>
+                <p>Exklusiva ostbrickor och skärbrädor i ändträ av valnöt och lönn.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🕯️</div>
+                <h3>Inredningsdetaljer</h3>
+                <p>Ljusstakar, skålar och väggkonst skapade av spillmaterial från vår produktion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="craft" class="craft-info">
+        <div class="text-block">
+            <h2>Hållbart & Handgjort</h2>
+            <p>Varje produkt börjar med ett noggrant urval av virke. Vi arbetar med lokala sågverk och behandlar allt trä med naturliga oljor för att framhäva dess unika ådring och karaktär.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Skapa något unikt</h2>
+        <p>Har du en egen idé eller vill du köpa en färdig produkt?</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Namn" required>
+            <select required>
+                <option value="" disabled selected>Vad är du intresserad av?</option>
+                <option value="soffbord">Soffbord</option>
+                <option value="ostbricka">Ostbricka / Skärbräda</option>
+                <option value="annat">Specialbeställning</option>
+            </select>
+            <textarea placeholder="Ditt meddelande..."></textarea>
+            <button type="submit" class="btn">Skicka Förfrågan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studio Trä & Form. Kvalitet som känns.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
